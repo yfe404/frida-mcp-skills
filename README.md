@@ -25,18 +25,30 @@ skills/
 
 Choose one of these options.
 
-### Option 1: Clone and copy skill folder
+### Option 1: Install with Skills CLI (recommended)
 
 ```bash
-git clone git@github.com:yfe404/frida-mcp-skills.git
+npx skills add yfe404/frida-mcp-skills@frida-mcp-workflow
+```
+
+For non-interactive global install:
+
+```bash
+npx skills add yfe404/frida-mcp-skills@frida-mcp-workflow -g -y
+```
+
+### Option 2: Clone and copy skill folder (manual)
+
+```bash
+git clone https://github.com/yfe404/frida-mcp-skills.git
 mkdir -p ~/.codex/skills
 cp -R frida-mcp-skills/skills/frida-mcp-workflow ~/.codex/skills/
 ```
 
-### Option 2: Symlink for live edits
+### Option 3: Symlink for live edits
 
 ```bash
-git clone git@github.com:yfe404/frida-mcp-skills.git
+git clone https://github.com/yfe404/frida-mcp-skills.git
 mkdir -p ~/.codex/skills
 ln -s "$(pwd)/frida-mcp-skills/skills/frida-mcp-workflow" ~/.codex/skills/frida-mcp-workflow
 ```
