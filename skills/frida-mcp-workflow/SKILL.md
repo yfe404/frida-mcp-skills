@@ -1,6 +1,6 @@
 ---
 name: frida-mcp-workflow
-description: Enforce safe Frida 17 MCP operations with strict phase gating. Use when attaching/spawning sessions, writing or loading scripts, applying Java/native hooks, troubleshooting instrumentation failures, or interpreting Frida MCP output. Require docs-first usage and run the mandatory workflow: Idea -> Scripting -> Execution -> Notes.
+description: "Enforce safe Frida 17 MCP operations with strict phase gating. Use when attaching/spawning sessions, writing or loading scripts, applying Java/native hooks, troubleshooting instrumentation failures, or interpreting Frida MCP output. Require docs-first usage and run the mandatory workflow: Idea -> Scripting -> Execution -> Notes."
 ---
 
 # Frida MCP Workflow
