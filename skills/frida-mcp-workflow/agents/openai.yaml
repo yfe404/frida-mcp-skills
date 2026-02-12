@@ -1,0 +1,3 @@
+interface:
+  display_name: "Frida MCP Workflow"
+  short_description: "Run Frida MCP with docs-first, file-based scripts, and strict hook lifecycle discipline"
